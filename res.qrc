@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/ass_img">
+        <file>res/bad_ass.jpg</file>
+        <file>res/nice_ass.jpg</file>
+    </qresource>
+</RCC>

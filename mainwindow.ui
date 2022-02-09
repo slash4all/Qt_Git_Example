@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>322</width>
+    <width>310</width>
     <height>288</height>
    </rect>
   </property>
@@ -17,21 +17,24 @@
    <widget class="QPushButton" name="kick_btn">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>110</y>
-      <width>168</width>
+      <x>70</x>
+      <y>150</y>
+      <width>170</width>
       <height>41</height>
      </rect>
     </property>
     <property name="text">
      <string>kick my ass</string>
     </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="kicked_lbl">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>160</y>
+      <x>30</x>
+      <y>200</y>
       <width>241</width>
       <height>21</height>
      </rect>
@@ -40,13 +43,23 @@
      <string/>
     </property>
    </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>200</width>
+      <height>150</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>322</width>
+     <width>310</width>
      <height>17</height>
     </rect>
    </property>
