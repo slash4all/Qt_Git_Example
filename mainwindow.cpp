@@ -10,6 +10,14 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow()
 {
-    delete ui;
+
+   delete ui;
+}
+
+
+
+void MainWindow::on_kick_btn_clicked()
+{
+        ui->kicked_lbl->setText(ui->kicked_lbl->text()+" ouch!");
 }
 
